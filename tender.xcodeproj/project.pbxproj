@@ -19,6 +19,7 @@
 		E79F9FAD221A2CEB00BEA174 /* CardViewCell in Resources */ = {isa = PBXBuildFile; fileRef = E79F9FAC221A2CEB00BEA174 /* CardViewCell */; };
 		E79F9FAF221A2D5000BEA174 /* DeskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F9FAE221A2D5000BEA174 /* DeskController.swift */; };
 		E79F9FB1221A308800BEA174 /* Card.png in Resources */ = {isa = PBXBuildFile; fileRef = E79F9FB0221A308800BEA174 /* Card.png */; };
+		E79F9FB3221A459E00BEA174 /* Line Copy.png in Resources */ = {isa = PBXBuildFile; fileRef = E79F9FB2221A459E00BEA174 /* Line Copy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		E79F9FAC221A2CEB00BEA174 /* CardViewCell */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CardViewCell; sourceTree = "<group>"; };
 		E79F9FAE221A2D5000BEA174 /* DeskController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeskController.swift; sourceTree = "<group>"; };
 		E79F9FB0221A308800BEA174 /* Card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Card.png; sourceTree = "<group>"; };
+		E79F9FB2221A459E00BEA174 /* Line Copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Line Copy.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				E79F9FAA221A05D000BEA174 /* images.xcassets */,
+				E79F9FB2221A459E00BEA174 /* Line Copy.png */,
 				E79F9FB0221A308800BEA174 /* Card.png */,
 				E79F9F8A2219E73000BEA174 /* tender */,
 				E79F9F892219E73000BEA174 /* Products */,
@@ -182,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79F9FB3221A459E00BEA174 /* Line Copy.png in Resources */,
 				E79F9F962219E73000BEA174 /* LaunchScreen.storyboard in Resources */,
 				E79F9FA02219EA1900BEA174 /* GoogleService-Info.plist in Resources */,
 				E79F9FAB221A05D000BEA174 /* images.xcassets in Resources */,
