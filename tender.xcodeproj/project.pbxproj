@@ -20,6 +20,7 @@
 		E79F9FAF221A2D5000BEA174 /* DeskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F9FAE221A2D5000BEA174 /* DeskController.swift */; };
 		E79F9FB1221A308800BEA174 /* Card.png in Resources */ = {isa = PBXBuildFile; fileRef = E79F9FB0221A308800BEA174 /* Card.png */; };
 		E79F9FB3221A459E00BEA174 /* Line Copy.png in Resources */ = {isa = PBXBuildFile; fileRef = E79F9FB2221A459E00BEA174 /* Line Copy.png */; };
+		E79F9FB7221A4C7100BEA174 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F9FB6221A4C7100BEA174 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		E79F9FAE221A2D5000BEA174 /* DeskController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeskController.swift; sourceTree = "<group>"; };
 		E79F9FB0221A308800BEA174 /* Card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Card.png; sourceTree = "<group>"; };
 		E79F9FB2221A459E00BEA174 /* Line Copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Line Copy.png"; sourceTree = "<group>"; };
+		E79F9FB6221A4C7100BEA174 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		E79F9FA32219F4AB00BEA174 /* conrtoller */ = {
 			isa = PBXGroup;
 			children = (
+				E79F9FB6221A4C7100BEA174 /* AddViewController.swift */,
 				E79F9FAE221A2D5000BEA174 /* DeskController.swift */,
 				E79F9F8B2219E73000BEA174 /* AppDelegate.swift */,
 				E79F9FA42219F5ED00BEA174 /* LoginViewController.swift */,
@@ -267,6 +270,7 @@
 			files = (
 				E79F9FA52219F5ED00BEA174 /* LoginViewController.swift in Sources */,
 				E79F9FAF221A2D5000BEA174 /* DeskController.swift in Sources */,
+				E79F9FB7221A4C7100BEA174 /* AddViewController.swift in Sources */,
 				E79F9FA22219F2DF00BEA174 /* RegisterViewController.swift in Sources */,
 				E79F9F8E2219E73000BEA174 /* ViewController.swift in Sources */,
 				E79F9F8C2219E73000BEA174 /* AppDelegate.swift in Sources */,

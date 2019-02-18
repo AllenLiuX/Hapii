@@ -308,7 +308,7 @@
         <!--Add-->
         <scene sceneID="mHE-33-GGZ">
             <objects>
-                <viewController title="Add" id="nd6-Ce-aAL" sceneMemberID="viewController">
+                <viewController title="Add" id="nd6-Ce-aAL" customClass="AddViewController" customModule="tender" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFit" id="6Bk-Ba-8sI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -353,6 +353,10 @@
                                 <rect key="frame" x="32" y="576" width="24" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.40000000000000002" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="bluePressed:" destination="nd6-Ce-aAL" eventType="touchUpInside" id="2Ss-b4-3Cc"/>
+                                    <action selector="pressed:" destination="nd6-Ce-aAL" eventType="touchUpInside" id="b2l-X5-edc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJU-vj-V3L">
                                 <rect key="frame" x="104" y="576" width="24" height="25"/>
@@ -385,10 +389,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Add" id="2ur-Il-bqI"/>
                     <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="back" destination="RY6-py-Q4S" id="Oln-mh-URQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C27-lx-AkN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4596" y="-842"/>
+            <point key="canvasLocation" x="4596" y="-741"/>
         </scene>
     </scenes>
     <resources>
