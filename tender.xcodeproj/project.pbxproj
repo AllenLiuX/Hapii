@@ -16,6 +16,9 @@
 		E79F9FA22219F2DF00BEA174 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F9FA12219F2DF00BEA174 /* RegisterViewController.swift */; };
 		E79F9FA52219F5ED00BEA174 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F9FA42219F5ED00BEA174 /* LoginViewController.swift */; };
 		E79F9FAB221A05D000BEA174 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79F9FAA221A05D000BEA174 /* images.xcassets */; };
+		E79F9FAD221A2CEB00BEA174 /* CardViewCell in Resources */ = {isa = PBXBuildFile; fileRef = E79F9FAC221A2CEB00BEA174 /* CardViewCell */; };
+		E79F9FAF221A2D5000BEA174 /* DeskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F9FAE221A2D5000BEA174 /* DeskController.swift */; };
+		E79F9FB1221A308800BEA174 /* Card.png in Resources */ = {isa = PBXBuildFile; fileRef = E79F9FB0221A308800BEA174 /* Card.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		E79F9FA12219F2DF00BEA174 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		E79F9FA42219F5ED00BEA174 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E79F9FAA221A05D000BEA174 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		E79F9FAC221A2CEB00BEA174 /* CardViewCell */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CardViewCell; sourceTree = "<group>"; };
+		E79F9FAE221A2D5000BEA174 /* DeskController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeskController.swift; sourceTree = "<group>"; };
+		E79F9FB0221A308800BEA174 /* Card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Card.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				E79F9FAA221A05D000BEA174 /* images.xcassets */,
+				E79F9FB0221A308800BEA174 /* Card.png */,
 				E79F9F8A2219E73000BEA174 /* tender */,
 				E79F9F892219E73000BEA174 /* Products */,
 				D3F7B90582E41F77162401E9 /* Pods */,
@@ -85,6 +92,7 @@
 		E79F9F8A2219E73000BEA174 /* tender */ = {
 			isa = PBXGroup;
 			children = (
+				E79F9FAC221A2CEB00BEA174 /* CardViewCell */,
 				E79F9FA32219F4AB00BEA174 /* conrtoller */,
 				E79F9FA62219FC7C00BEA174 /* view */,
 				E79F9F972219E73000BEA174 /* Info.plist */,
@@ -96,6 +104,7 @@
 		E79F9FA32219F4AB00BEA174 /* conrtoller */ = {
 			isa = PBXGroup;
 			children = (
+				E79F9FAE221A2D5000BEA174 /* DeskController.swift */,
 				E79F9F8B2219E73000BEA174 /* AppDelegate.swift */,
 				E79F9FA42219F5ED00BEA174 /* LoginViewController.swift */,
 				E79F9FA12219F2DF00BEA174 /* RegisterViewController.swift */,
@@ -176,6 +185,8 @@
 				E79F9F962219E73000BEA174 /* LaunchScreen.storyboard in Resources */,
 				E79F9FA02219EA1900BEA174 /* GoogleService-Info.plist in Resources */,
 				E79F9FAB221A05D000BEA174 /* images.xcassets in Resources */,
+				E79F9FB1221A308800BEA174 /* Card.png in Resources */,
+				E79F9FAD221A2CEB00BEA174 /* CardViewCell in Resources */,
 				E79F9F912219E73000BEA174 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E79F9FA52219F5ED00BEA174 /* LoginViewController.swift in Sources */,
+				E79F9FAF221A2D5000BEA174 /* DeskController.swift in Sources */,
 				E79F9FA22219F2DF00BEA174 /* RegisterViewController.swift in Sources */,
 				E79F9F8E2219E73000BEA174 /* ViewController.swift in Sources */,
 				E79F9F8C2219E73000BEA174 /* AppDelegate.swift in Sources */,
