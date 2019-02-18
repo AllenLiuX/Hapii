@@ -21,6 +21,7 @@
 		E79F9FB1221A308800BEA174 /* Card.png in Resources */ = {isa = PBXBuildFile; fileRef = E79F9FB0221A308800BEA174 /* Card.png */; };
 		E79F9FB3221A459E00BEA174 /* Line Copy.png in Resources */ = {isa = PBXBuildFile; fileRef = E79F9FB2221A459E00BEA174 /* Line Copy.png */; };
 		E79F9FB7221A4C7100BEA174 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F9FB6221A4C7100BEA174 /* AddViewController.swift */; };
+		E7B2EC15221A63740052FAC3 /* trial.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2EC14221A63740052FAC3 /* trial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		E79F9FB0221A308800BEA174 /* Card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Card.png; sourceTree = "<group>"; };
 		E79F9FB2221A459E00BEA174 /* Line Copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Line Copy.png"; sourceTree = "<group>"; };
 		E79F9FB6221A4C7100BEA174 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		E7B2EC14221A63740052FAC3 /* trial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = trial.swift; path = tender/conrtoller/trial.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				E79F9FA42219F5ED00BEA174 /* LoginViewController.swift */,
 				E79F9FA12219F2DF00BEA174 /* RegisterViewController.swift */,
 				E79F9F8D2219E73000BEA174 /* ViewController.swift */,
+				E7B2EC14221A63740052FAC3 /* trial.swift */,
 			);
 			path = conrtoller;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				E79F9FB7221A4C7100BEA174 /* AddViewController.swift in Sources */,
 				E79F9FA22219F2DF00BEA174 /* RegisterViewController.swift in Sources */,
 				E79F9F8E2219E73000BEA174 /* ViewController.swift in Sources */,
+				E7B2EC15221A63740052FAC3 /* trial.swift in Sources */,
 				E79F9F8C2219E73000BEA174 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

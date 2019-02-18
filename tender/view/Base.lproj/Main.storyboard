@@ -53,18 +53,18 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYg-VQ-5r6">
                                 <rect key="frame" x="101" y="258" width="173" height="30"/>
-                                <color key="backgroundColor" red="0.53409618140000004" green="0.59629547599999999" blue="0.81492191550000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.66902792453765869" green="0.73128575086593628" blue="0.94889926910400391" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="hLo-KT-ra0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="17"/>
-                                <state key="normal" title="Register" backgroundImage="facebook_logo"/>
+                                <state key="normal" title="Register"/>
                                 <connections>
                                     <segue destination="kDU-sz-cJs" kind="show" identifier="goToRegister" id="z7Y-BT-ruD"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.66902792450000004" green="0.73128575090000003" blue="0.9488992691" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="lRt-bH-Oow" firstAttribute="top" secondItem="rQn-RI-te2" secondAttribute="bottom" id="0Ee-pB-Fuc"/>
                             <constraint firstAttribute="trailing" secondItem="lRt-bH-Oow" secondAttribute="trailing" id="0Uc-N6-MKX"/>
@@ -198,7 +198,7 @@
             </objects>
             <point key="canvasLocation" x="2100" y="-182"/>
         </scene>
-        <!--Setting-->
+        <!--View Controller-->
         <scene sceneID="TAm-bp-iub">
             <objects>
                 <viewController id="eRC-44-yTn" sceneMemberID="viewController">
@@ -214,13 +214,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="7BD-Lq-udi"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Setting" id="DCc-QZ-FR0"/>
+                    <tabBarItem key="tabBarItem" title="" image="like_icon" id="DCc-QZ-FR0">
+                        <inset key="imageInsets" minX="0.0" minY="15" maxX="0.0" maxY="0.0"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D1p-4P-4sK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4596" y="1395.6521739130435"/>
         </scene>
-        <!--My Moment-->
+        <!--Desk Controller-->
         <scene sceneID="534-Fc-iS2">
             <objects>
                 <viewController id="ghY-e9-Eyp" customClass="DeskController" customModule="tender" customModuleProvider="target" sceneMemberID="viewController">
@@ -259,7 +261,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="xEC-dO-cIF"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="My Moment" id="7xN-Wf-KPD"/>
+                    <tabBarItem key="tabBarItem" title="" image="home_selected_tab_icon" id="7xN-Wf-KPD">
+                        <inset key="imageInsets" minX="0.0" minY="2" maxX="0.0" maxY="0.0"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="tableView" destination="JYb-7a-8hL" id="KRD-KJ-F8l"/>
                     </connections>
@@ -276,6 +280,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="G6V-eA-9Ak">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.66902792450000004" green="0.73128575090000003" blue="0.9488992691" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -292,6 +300,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="kkJ-hx-ENN" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RJC-rl-Ogd">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -321,7 +330,7 @@
                                         <rect key="frame" x="26" y="23" width="258" height="425"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qOd-fb-YRG">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0168" translatesAutoresizingMaskIntoConstraints="NO" id="qOd-fb-YRG">
                                                 <rect key="frame" x="25" y="22" width="209" height="209"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -329,7 +338,7 @@
                                                 <rect key="frame" x="10" y="374" width="240" height="7"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="hahhahh" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="x0G-89-p32">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Say something about your day~" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="x0G-89-p32">
                                                 <rect key="frame" x="25" y="239" width="209" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -354,29 +363,40 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.40000000000000002" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <action selector="bluePressed:" destination="nd6-Ce-aAL" eventType="touchUpInside" id="2Ss-b4-3Cc"/>
-                                    <action selector="pressed:" destination="nd6-Ce-aAL" eventType="touchUpInside" id="b2l-X5-edc"/>
+                                    <action selector="buttomPressed:" destination="nd6-Ce-aAL" eventType="touchUpInside" id="vbW-ah-QIa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJU-vj-V3L">
                                 <rect key="frame" x="104" y="576" width="24" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.40000000000000002" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="pinkPressed:" destination="nd6-Ce-aAL" eventType="touchUpInside" id="51N-CJ-mW6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Wr-ee-fnm">
                                 <rect key="frame" x="174" y="576" width="24" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.40000000000000002" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="greenPressed:" destination="nd6-Ce-aAL" eventType="touchUpInside" id="xeE-Dr-wEw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GsV-Lg-xJw">
                                 <rect key="frame" x="244" y="576" width="24" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="yellowPressed:" destination="nd6-Ce-aAL" eventType="touchUpInside" id="jGz-pg-3Ds"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3S-UC-mtZ">
                                 <rect key="frame" x="317" y="576" width="24" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.40000000000000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="redPressed:" destination="nd6-Ce-aAL" eventType="touchUpInside" id="mFW-Fn-2fx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W28-IM-Tak">
                                 <rect key="frame" x="316" y="20" width="41" height="30"/>
@@ -387,10 +407,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="NQ2-y1-MfG"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Add" id="2ur-Il-bqI"/>
+                    <tabBarItem key="tabBarItem" title="" image="post_tab_icon" id="2ur-Il-bqI">
+                        <inset key="imageInsets" minX="0.0" minY="2" maxX="0.0" maxY="0.0"/>
+                    </tabBarItem>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
-                        <outlet property="back" destination="RY6-py-Q4S" id="Oln-mh-URQ"/>
+                        <outlet property="view2" destination="RY6-py-Q4S" id="3ay-v0-qN2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C27-lx-AkN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -399,12 +421,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="IMG_0168" width="2256" height="2257"/>
         <image name="IMG_0169" width="3647" height="3648"/>
         <image name="Line Copy" width="211" height="3"/>
         <image name="destination1" width="1725" height="1297"/>
-        <image name="facebook_logo" width="18" height="18"/>
+        <image name="home_selected_tab_icon" width="44" height="48"/>
+        <image name="like_icon" width="54" height="50"/>
+        <image name="post_tab_icon" width="48" height="48"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hPl-7g-7qG"/>
+        <segue reference="Oko-R4-gf5"/>
     </inferredMetricsTieBreakers>
 </document>
